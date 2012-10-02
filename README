@@ -1,0 +1,19 @@
+String-Template
+===============
+
+Expands "<field> text <field2>" templates with values from a hash.
+Some special formats can impose formatting on the fields.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+  POSIX, Date::Parse, DateTime::Format::Strptime
